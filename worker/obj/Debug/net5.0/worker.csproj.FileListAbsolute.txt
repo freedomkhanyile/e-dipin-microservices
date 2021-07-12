@@ -1,0 +1,16 @@
+C:\Users\Freedom.Khanyile\source\repos\e-dipin-microservices\worker\bin\Debug\net5.0\worker.exe
+C:\Users\Freedom.Khanyile\source\repos\e-dipin-microservices\worker\bin\Debug\net5.0\worker.deps.json
+C:\Users\Freedom.Khanyile\source\repos\e-dipin-microservices\worker\bin\Debug\net5.0\worker.runtimeconfig.json
+C:\Users\Freedom.Khanyile\source\repos\e-dipin-microservices\worker\bin\Debug\net5.0\worker.runtimeconfig.dev.json
+C:\Users\Freedom.Khanyile\source\repos\e-dipin-microservices\worker\bin\Debug\net5.0\worker.dll
+C:\Users\Freedom.Khanyile\source\repos\e-dipin-microservices\worker\bin\Debug\net5.0\ref\worker.dll
+C:\Users\Freedom.Khanyile\source\repos\e-dipin-microservices\worker\bin\Debug\net5.0\worker.pdb
+C:\Users\Freedom.Khanyile\source\repos\e-dipin-microservices\worker\obj\Debug\net5.0\worker.csprojAssemblyReference.cache
+C:\Users\Freedom.Khanyile\source\repos\e-dipin-microservices\worker\obj\Debug\net5.0\worker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Freedom.Khanyile\source\repos\e-dipin-microservices\worker\obj\Debug\net5.0\worker.AssemblyInfoInputs.cache
+C:\Users\Freedom.Khanyile\source\repos\e-dipin-microservices\worker\obj\Debug\net5.0\worker.AssemblyInfo.cs
+C:\Users\Freedom.Khanyile\source\repos\e-dipin-microservices\worker\obj\Debug\net5.0\worker.csproj.CoreCompileInputs.cache
+C:\Users\Freedom.Khanyile\source\repos\e-dipin-microservices\worker\obj\Debug\net5.0\worker.dll
+C:\Users\Freedom.Khanyile\source\repos\e-dipin-microservices\worker\obj\Debug\net5.0\ref\worker.dll
+C:\Users\Freedom.Khanyile\source\repos\e-dipin-microservices\worker\obj\Debug\net5.0\worker.pdb
+C:\Users\Freedom.Khanyile\source\repos\e-dipin-microservices\worker\obj\Debug\net5.0\worker.genruntimeconfig.cache

@@ -23,9 +23,29 @@ namespace e_dipin_profile_api.Controllers
         }
 
         [HttpGet("{id}")]
-        public IActionResult Get(string id) {
+        public IActionResult Get(string id) 
+        {
             var profiles = GetProfiles();
             var item  = profiles.Find(x => x.Id == id);
+            return Ok(item);
+        }
+
+        [HttpPost]
+        public IActionResult Post([FromBody]UserProfile model) 
+        {
+            return Ok(model);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Put(string id, [FromBody]UserProfile model) 
+        {
+            var profiles = GetProfiles();
+            var item  = profiles.Find(x => x.Id == id);
+            if(item == null) return NotFound();
+            item.Username = model.Username;
+            item.Cellphone = model.Cellphone;
+            item.IsDeleted = model.IsDeleted;
+
             return Ok(item);
         }
 
@@ -58,6 +78,5 @@ namespace e_dipin_profile_api.Controllers
                 }
             };
         }
-
     }
 }

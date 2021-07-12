@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e_dipin_post_api", "e_dipin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e_dipin_comment_api", "e_dipin_comment_api\e_dipin_comment_api.csproj", "{9119A8D7-8E65-4DE3-AC83-856027A19E58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "worker", "worker\worker.csproj", "{D60F95EB-D734-48B7-98E0-F3952B320AD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{9119A8D7-8E65-4DE3-AC83-856027A19E58}.Release|x64.Build.0 = Release|Any CPU
 		{9119A8D7-8E65-4DE3-AC83-856027A19E58}.Release|x86.ActiveCfg = Release|Any CPU
 		{9119A8D7-8E65-4DE3-AC83-856027A19E58}.Release|x86.Build.0 = Release|Any CPU
+		{D60F95EB-D734-48B7-98E0-F3952B320AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60F95EB-D734-48B7-98E0-F3952B320AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60F95EB-D734-48B7-98E0-F3952B320AD3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D60F95EB-D734-48B7-98E0-F3952B320AD3}.Debug|x64.Build.0 = Debug|Any CPU
+		{D60F95EB-D734-48B7-98E0-F3952B320AD3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D60F95EB-D734-48B7-98E0-F3952B320AD3}.Debug|x86.Build.0 = Debug|Any CPU
+		{D60F95EB-D734-48B7-98E0-F3952B320AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60F95EB-D734-48B7-98E0-F3952B320AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60F95EB-D734-48B7-98E0-F3952B320AD3}.Release|x64.ActiveCfg = Release|Any CPU
+		{D60F95EB-D734-48B7-98E0-F3952B320AD3}.Release|x64.Build.0 = Release|Any CPU
+		{D60F95EB-D734-48B7-98E0-F3952B320AD3}.Release|x86.ActiveCfg = Release|Any CPU
+		{D60F95EB-D734-48B7-98E0-F3952B320AD3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
