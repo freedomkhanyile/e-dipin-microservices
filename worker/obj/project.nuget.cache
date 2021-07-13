@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xBORUBIWDaTk+ALsH7UPoWwCLP11R/vAdCqGWVuGWozRrpaUoZ/Ebs0ddRK5kc3xBclzlRXDLb9F31oHH5+0hA==",
+  "dgSpecHash": "S7WLb8B0t+PsuYuZp1CLBlZSdUVoWVyVwUBnPGBqtPsQMr931bxu4krGT4Eq2zpURUzPQ5pQd1F9An/pEF7z6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Freedom.Khanyile\\source\\repos\\e-dipin-microservices\\worker\\worker.csproj",
+  "projectFilePath": "C:\\Users\\Freedom.Khanyile\\source\\Docker\\e-dipin-microservices\\worker\\worker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Freedom.Khanyile\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
