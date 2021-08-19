@@ -18,31 +18,33 @@ namespace e_dipin_profile_api.Controllers
 
         [HttpGet]
         public IActionResult Get()
-        { 
+        {
             return Ok(GetProfiles());
         }
 
         [HttpGet("{id}")]
-        public IActionResult Get(string id) 
+        public IActionResult Get(string id)
         {
             var profiles = GetProfiles();
-            var item  = profiles.Find(x => x.Id == id);
+            var item = profiles.Find(x => x.Id == id);
             return Ok(item);
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody]UserProfile model) 
+        public IActionResult Post([FromBody] UserProfile model)
         {
-            return Ok(model);
+            var profiles = GetProfiles();
+            profiles.Add(model);
+            return Ok(Get());
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put(string id, [FromBody]UserProfile model) 
+        public IActionResult Put(string id, [FromBody] UserProfile model)
         {
             var profiles = GetProfiles();
-            var item  = profiles.Find(x => x.Id == id);
-            if(item == null) return NotFound();
-            item.Username = model.Username;
+            var item = profiles.Find(x => x.Id == id);
+            if (item == null) return BadRequest();
+            item.Email = model.Email;
             item.Cellphone = model.Cellphone;
             item.IsDeleted = model.IsDeleted;
 
@@ -55,23 +57,23 @@ namespace e_dipin_profile_api.Controllers
                 new UserProfile()
                 {
                     Id = "1",
-                    Username = "Busani Zulu",
+                    Email = "Busani Zulu",
                     Cellphone = "+2114454214",
                     Password = null,
                     IsDeleted = false
-                }, 
+                },
                 new UserProfile()
                 {
                     Id = "2",
-                    Username = "Velile Zondo",
+                    Email = "Velile Zondo",
                     Cellphone = "+21145457845",
                     Password = null,
                     IsDeleted = false
-                }, 
+                },
                 new UserProfile()
                 {
                     Id = "3",
-                    Username = "Bongani Zulu",
+                    Email = "Bongani Zulu",
                     Cellphone = "+21124548754",
                     Password = null,
                     IsDeleted = false

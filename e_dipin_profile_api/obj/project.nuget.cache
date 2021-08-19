@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5E4lv6jfxo9xSP927AuCiAPk4I6NJ4NVVuaecSbfZy3qyK/3H6mUDInNWQKXkM/Z6vHNNBWXwikDozPqSKpTsw==",
+  "dgSpecHash": "ZG92SN4v2nFIhRjAMYpIyv8xAD4g0x7enx6a503KlcqVO6BCA8NP4jxPjOFPgKMFKULFthraZESmG8k/d49xAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Freedom.Khanyile\\source\\Docker\\e-dipin-microservices\\e_dipin_profile_api\\e_dipin_profile_api.csproj",
+  "projectFilePath": "C:\\Users\\Freedom.Khanyile\\source\\repos\\e-dipin-microservices\\e_dipin_profile_api\\e_dipin_profile_api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Freedom.Khanyile\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Freedom.Khanyile\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

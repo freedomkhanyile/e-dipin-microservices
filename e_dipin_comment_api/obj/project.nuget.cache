@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qW8hdG6ZLsWfl4eV+BkHlLGVfIIR/zlzM1MhXT/C4ELsPC5j2Ah+8uznvL81CktmzOXdtsr2Y74PW+cC7nQ3xg==",
+  "dgSpecHash": "J9cdJoX9Z7Cmgk2ww2Ok82mSvXDlwyfYWhCJ1PETZkTdw3qa48fVc6SxJro2iXSZe5YZn+hShXiQ6iQgarw+rA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Freedom.Khanyile\\source\\repos\\e-dipin-microservices\\e_dipin_comment_api\\e_dipin_comment_api.csproj",
+  "projectFilePath": "c:\\Users\\Freedom.Khanyile\\source\\repos\\e-dipin-microservices\\e_dipin_comment_api\\e_dipin_comment_api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Freedom.Khanyile\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Freedom.Khanyile\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
